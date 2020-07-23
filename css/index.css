@@ -1,0 +1,236 @@
+/* Carousel */
+.carousel-item{
+    height: 91vh;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+}
+.carousel-caption{
+    text-align: center;
+    align-items: center;
+    float: center;
+    vertical-align: middle;
+}
+.carousel-caption h5{
+    font-size: 8vh;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: merienda;
+}
+.carousel-caption p{
+    margin: auto;
+    font-size: 3vh;
+    line-height: 1.9;
+    font-family: poppins;
+}
+
+
+/* Conteúdo */
+.content-site{
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-color: #ffffff;
+    color: #212121;
+}
+#texto_img{
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 10%;
+}
+#texto_img h1{
+    font-size: 7vh;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: Comons;
+}
+#texto_img p{
+    font-size: 2vh;
+    letter-spacing: 2px;
+    line-height: 1.9;
+    font-family: poppins;
+}
+
+
+/* Cards dos Conteúdos */
+.card-title{
+    color: #000000;
+    font-weight: bold;
+    font-family: merienda;
+    text-align: center;
+}
+.card-text{
+    color: #000000;
+    font-family: poppins;
+    text-align: center;
+}
+
+
+/* Animação das divs do Conteúdo */
+[data-anime]{
+    opacity: 0;
+    transition: .4s;
+}
+[data-anime="left"]{
+    transform: translate3d(-200px, 0, 0); /* eixo x, y, z */
+}
+[data-anime="right"]{
+    transform: translate3d(200px, 0, 0); /* eixo x, y, z */
+}
+[data-anime="top"]{
+    transform: translate3d(0, -200px, 0); /* eixo x, y, z */
+}
+[data-anime="bottom"]{
+    transform: translate3d(0, 200px, 0); /* eixo x, y, z */
+}
+[data-anime].animate{
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
+
+
+/* Botão com efeito pular */
+@keyframes bounce{
+    0%, 20%, 60%, 100%{
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    40%{
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+
+    80%{
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+}
+.efeitobtn{
+    background: #f18f01;
+}
+.efeitobtn:hover{
+    animation: bounce 1s;    
+}
+#cor_laranja_btn{
+    background-color: #ff5100;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* Efeito Parallax */
+.header-site{
+    background-image: url(../img/image1-parallax.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+    height: 100vh;
+}
+.img-site{
+    background-image: url(../img/image1-parallax.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    height: 40vh;
+}
+.img2-site{
+    background-image: url(../img/image2-parallax.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    height: 40vh;
+}
+.img3-site{
+    background-image: url(../img/image3-parallax.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    height: 40vh;
+}
+
+
+/* Efeito Scroll Suave */
+html{
+    scroll-behavior: smooth;
+}
+
+/* Botão voltar ao topo */
+#btnTop{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    height: 40px;
+    width: 40px;
+    color: #ffffff;
+    background: #ff4f00;
+    border: none;
+    border-radius: 50vh;
+    display: none;    
+}
+
+
+/* Cor dos Logos */
+.fa-info-circle{
+    color:  #ff5100;
+}
+.fa-envelope-o{
+    color:  #ff5100;
+}
+.fa-whatsapp{
+    color: #ff5100;
+}
+.fa-map-marker{
+    color: #ff5100;
+}
+
+/* Contato */
+.esquerda{
+    text-align: left;
+}
+#info{
+    height: 25vh;
+}
+#staticEmail{
+    color: #000000;
+    font-weight: bold;
+}
+#titulos{
+    color: #000000;
+    font-weight: bold;
+}
+
+
+/* Modal */
+.modal-title{
+    text-align: center;
+}
+
+
+/* Footer */
+.footer{
+    background-color: #ff5100;
+    color: #ffffff;
+    font-weight: bold;
+}
+#texto-footer{
+    font-size: 5vh;
+    font-family: merienda;
+    padding-top: 13px;
+}
+#icone_footer{
+    width: 7vh;
+    padding-right: 20px;
+}

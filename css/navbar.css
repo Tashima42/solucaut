@@ -1,22 +1,22 @@
 /* Navbar */
 #logo{
-    width: 6vh;
+    width: 7vh;
 }
 #cor_escrito{
     color: #ffffff;
     font-family: poppins;
-    font-size: 1.8vh;
     margin-left: 20px;
+    font-size: 1.8vh;
     text-transform: uppercase;
     background: linear-gradient(to right, #ff4f00, #ff5d14);
     font-weight: bold;
     border-radius: 25px;
     transition: .3s;
     text-align: center;
+    width: 95%;
 }
 #cor_escrito:hover{
     font-family: poppins;
-    font-size: 1.9vh;
     text-transform: uppercase;
     font-weight: bold;
     border-radius: 10px;

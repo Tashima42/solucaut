@@ -1,25 +1,26 @@
 /* Carousel */
 .carousel-item{
-    height: 92vh;
     width: auto;
     align-items: center;
     justify-content: center;
 }
+
 .carousel-caption{
     text-align: center;
     align-items: center;
     float: center;
     vertical-align: middle;
+    margin-bottom: 12%;
 }
-.carousel-caption h5{
-    font-size: 8vh;
+.carousel-caption h3{
+    font-size: 10vh;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-family: merienda;
 }
 .carousel-caption p{
     margin: auto;
-    font-size: 3vh;
+    font-size: 4vh;
     line-height: 1.9;
     font-family: poppins;
 }
@@ -27,7 +28,7 @@
 
 /* Conteúdo */
 .content-site{
-    padding-top: 75px;
+    padding-top: 50px;
     padding-bottom: 75px;
     background-color: #ffffff;
     color: #212121;
@@ -158,7 +159,6 @@
     align-items: center;
     justify-content: center;
     color: #ffffff;
-    height: 40vh;
 }
 
 
@@ -211,6 +211,29 @@ html{
     color: #000000;
     font-weight: bold;
 }
+.fundo{
+    background: linear-gradient(to left, #ff4f00, #ff5d14);
+    color: #fff;
+    border-radius: 5px;
+    width: 100%;
+    height: 75%;
+    margin-top: 5px;
+}
+::-webkit-input-placeholder{
+    color: #fff;
+}
+:-ms-input-placeholder{
+    color: #fff;
+}
+::-moz-placeholder{
+    color: #fff;
+    opacity: 1;
+}
+:-moz-placeholder{
+    color: #FFF;
+    opacity: 1;
+}
+
 
 
 /* Modal */

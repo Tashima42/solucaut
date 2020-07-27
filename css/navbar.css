@@ -86,7 +86,6 @@
     background-color: #fff;
     text-align: center;
     transition: .6s;
-    box-shadow: 0 5px 4px rgba(0,0,0,.5);
 }
 .navbar-right li:nth-child(1) a{
     color: #ffffff;

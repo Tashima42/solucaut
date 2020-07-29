@@ -2,27 +2,25 @@
 #logo{
     width: 7vh;
 }
-#cor_escrito{
+.nav-link{
     color: #ffffff;
     font-family: poppins;
     margin-left: 20px;
     font-size: 1.8vh;
     text-transform: uppercase;
-    background: linear-gradient(to right, #ff4f00, #ff5d14);
+    background: linear-gradient(to right, #ff5000, #ff783b);
     font-weight: bold;
     border-radius: 25px;
-    transition: .3s;
     text-align: center;
     width: 95%;
 }
-#cor_escrito:hover{
+.nav-link:hover{
+    background: #ff5000;
+    color: #fff;
     font-family: poppins;
     text-transform: uppercase;
     font-weight: bold;
-    border-radius: 10px;
-    background-color: #fff;
     text-align: center;
-    box-shadow: 0 5px 4px rgba(0,0,0,.5);
 }
 .navbar{
     width: 100%;
@@ -34,16 +32,6 @@
 .navbar ul{
     padding: 0;
     list-style: none;
-}
-.navbar-nav a:hover{
-    font-family: poppins;
-    font-size: 2.2vh;
-    text-transform: uppercase;
-    font-weight: bold;
-    border-radius: 10%;
-    background-color: #fff;
-    text-align: center;
-    box-shadow: 0 5px 4px rgba(0,0,0,.5);
 }
 .navbar-right{
     margin-left: 10%;
@@ -89,13 +77,13 @@
 }
 .navbar-right li:nth-child(1) a{
     color: #ffffff;
-    background: linear-gradient(to right, #ff4f00, #ff5d14);
+    background: linear-gradient(to right, #ff5000, #ff783b);
 }
 .navbar-right li:nth-child(2) a{
-    background: linear-gradient(to right, #ff4f00, #ff5d14);
+    background: linear-gradient(to right, #ff5000, #ff783b);
 }
 .navbar-right li:nth-child(3) a{
-    background: linear-gradient(to right, #ff4f00, #ff5d14);
+    background: linear-gradient(to right, #ff5000, #ff783b);
 }
 
 

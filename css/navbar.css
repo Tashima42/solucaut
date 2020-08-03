@@ -2,25 +2,25 @@
 #logo{
     width: 7vh;
 }
-.nav-link{
+.navLinks a{
+    background: linear-gradient(to right, #ff5000, #ff783b);
     color: #ffffff;
     font-family: poppins;
     margin-left: 20px;
     font-size: 1.8vh;
     text-transform: uppercase;
-    background: linear-gradient(to right, #ff5000, #ff783b);
     font-weight: bold;
     border-radius: 25px;
     text-align: center;
     width: 95%;
 }
-.nav-link:hover{
-    background: #ff5000;
+#cor_branca{
     color: #fff;
-    font-family: poppins;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-align: center;
+}
+#cor_branca:hover{
+    color: #000;
+    background: linear-gradient(to left, #ff783b, #ff783b);
+    transition: .6s;
 }
 .navbar{
     width: 100%;
@@ -33,39 +33,30 @@
     padding: 0;
     list-style: none;
 }
-.navbar-right{
-    margin-left: 10%;
-}
-.navbar-center{
-    margin-left: 7%;
-}
-.bg{
-    background: #ffffff;
-}
 
 
 /* Redes Sociais Contato */
-.navbar-right ul{
+.socialMedias ul{
     position: absolute;
-    left: 50%;
     padding: 0;
     margin: 0;
     transform: translate(-50%, -50%);
-    display: flex;
+    display: inline-flex;
 }
-.navbar-right li{
+.socialMedias li{
     list-style: none;
-    margin: 0 10px;
+    margin: 0 5px;
+    display: inline-flex;
 }
-.navbar-right li .fa{
+.socialMedias li .fa{
     font-size: 3vh;
     line-height: 170%;
     color: #000;
 }
-.navbar-right li .fa{
+.socialMedias li .fa{
     color: #fff;
 }
-.navbar-right li a{
+.socialMedias li a{
     position: relative;
     display: block;
     width: 5vh;
@@ -75,14 +66,16 @@
     text-align: center;
     transition: .6s;
 }
-.navbar-right li:nth-child(1) a{
-    color: #ffffff;
+.socialMedias li:nth-child(1) a{
+    background: #ff5100;
     background: linear-gradient(to right, #ff5000, #ff783b);
 }
-.navbar-right li:nth-child(2) a{
+.socialMedias li:nth-child(2) a{
+    background: #ff5100;
     background: linear-gradient(to right, #ff5000, #ff783b);
 }
-.navbar-right li:nth-child(3) a{
+.socialMedias li:nth-child(3) a{
+    background: #ff5100;
     background: linear-gradient(to right, #ff5000, #ff783b);
 }
 

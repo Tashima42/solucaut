@@ -18,41 +18,55 @@
     </head>
 
     <body>
-        <!-- Navbar -->        
-        <nav class="navbar navbar-expand-lg bg">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                <div class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/icon.png" alt="LogoSolucaut" id="logo">
+                    </a>
 
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <div class="navbar-header">
-                        <a class="navbar-brand" href="#"><img src="img/icon.png" id="logo"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSite">
+                        <ul class="navbar-nav mr-auto ml-auto navLinks">
+                            <li class="nav-item mt-1">
+                                <a class="nav-link" href="#quem-somos" id="cor_branca">Quem Somos</a>
+                            </li>
+                            <li class="nav-item mt-1">
+                                <a class="nav-link" href="#servicos" id="cor_branca">Nossos Serviços</a>
+                            </li>
+                            <li class="nav-item mt-1">
+                                <a class="nav-link" href="#cases" id="cor_branca">Cases</a>
+                            </li>
+                            <li class="nav-item mt-1">
+                                <a class="nav-link" href="#contato" id="cor_branca">Contato</a>
+                            </li>
+                            <li class="nav-item mt-1">
+                                <a class="nav-link" href="#" id="cor_branca">Blog</a>
+                            </li>
+                        </ul>
+
+                        <ul class="navbar-nav socialMedias ml-lg-5">
+                            <li class="nav-item mt-1">
+                                <a href="https://www.facebook.com/solucaut/" target="_blank">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item mt-1">
+                                <a href="https://www.instagram.com/solucaut_ej/" target="_blank">
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item mt-1">
+                                <a href="https://br.linkedin.com/organization-guest/company/solucaut?challengeId=AQEqF9G47bhaswAAAXNnZlfr6x_UblpDz8tGJ7pAUEhYhpgijpCxtmuVraU7iXSC0UpUXdwY1rbHm0EO57cPMWro9lHp_aDsWQ&submissionId=60af9659-812c-2316-c6b4-80fa0662fc60" target="_blank">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
-    
-                    <ul class="navbar-nav navbar-center">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#quem-somos" id="cor_escrito">Quem Somos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#servicos" id="cor_escrito">Nossos Serviços</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#cases" id="cor_escrito">Cases</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contato" id="cor_escrito">Contato</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" id="cor_escrito">Blog</a>
-                        </li>
-                    </ul>
-    
-                    <ul class="nav navbar-nav navbar-right">
-                        <li id="icon-medias"><a href="https://www.facebook.com/solucaut/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                        <li id="icon-medias"><a href="https://www.instagram.com/solucaut_ej/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                        <li ><a href="https://br.linkedin.com/organization-guest/company/solucaut?challengeId=AQEqF9G47bhaswAAAXNnZlfr6x_UblpDz8tGJ7pAUEhYhpgijpCxtmuVraU7iXSC0UpUXdwY1rbHm0EO57cPMWro9lHp_aDsWQ&submissionId=60af9659-812c-2316-c6b4-80fa0662fc60" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                    </ul>
                 </div>
             </div>
         </nav>
@@ -483,31 +497,23 @@
                         <label for="staticEmail" class="col-sm-10 col-form-label">* campos obrigatórios</label>
                         <form>
                             <div class="input-group mb-3">
-                                <div class="input-group-prepend">
-                                  <span class="input-group-text" id="basic-addon1"><i class="fa fa-envelope" aria-hidden="true"></i></span>
-                                </div>
-                                <input type="email" class="form-control" placeholder="Email *" required>
+                                <span class="input-group-text" id="iconInput"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                                <input type="email" class="fundo" placeholder="Email *" required>
                             </div>
 
                             <div class="input-group mb-3">
-                                <div class="input-group-prepend">
-                                  <span class="input-group-text" id="basic-addon1"><i class="fa fa-phone" aria-hidden="true"></i></span>
-                                </div>
-                                <input type="text" class="form-control" placeholder="Telefone">
+                                <span class="input-group-text" id="iconInput"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                                <input type="email" class="fundo" placeholder="Telefone" required>
                             </div>
 
                             <div class="input-group mb-3">
-                                <div class="input-group-prepend">
-                                  <span class="input-group-text" id="basic-addon1"><i class="fa fa-comment-o" aria-hidden="true"></i></span>
-                                </div>
-                                <input type="text" class="form-control" placeholder="Assunto *" required>
+                                <span class="input-group-text" id="iconInput"><i class="fa fa-comment-o" aria-hidden="true"></i></span>
+                                <input type="text" class="fundo" placeholder="Assunto *" required>
                             </div>
                             
                             <div class="input-group mb-3">
-                                <div class="input-group-prepend">
-                                  <span class="input-group-text" id="basic-addon1"><i class="fa fa-commenting-o" aria-hidden="true"></i></span>
-                                </div>
-                                <textarea type="text" class="form-control" placeholder="Mensagem *" required></textarea>
+                                <span class="input-group-text" id="iconInput"><i class="fa fa-commenting-o" aria-hidden="true"></i></span>
+                                <textarea type="text" class="fundo" placeholder="Mensagem *" required></textarea>
                             </div>
                             <button data-toggle="modal" data-target="#modalMaps" type="submit" class="btn efeitobtn" id="cor_laranja_btn"><i class="fa fa-paper-plane-o" aria-hidden="true"></i>  Enviar</button>
                         </form>

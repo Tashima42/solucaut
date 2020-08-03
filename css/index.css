@@ -9,7 +9,7 @@
     text-align: center;
     align-items: center;
     float: center;
-    margin-bottom: 15%;
+    margin-bottom: 250px;
 }
 .carousel-caption h3{
     font-size: 9vh;
@@ -121,7 +121,7 @@
     animation: bounce 1s;    
 }
 #cor_laranja_btn{
-    background-color: #ff5100;
+    background: linear-gradient(to right, #ff5000, #ff783b);
     color: #ffffff;
     font-weight: bold;
 }
@@ -183,7 +183,7 @@ html{
     height: 40px;
     width: 40px;
     color: #ffffff;
-    background: #ff4f00;
+    background: linear-gradient(to left, #ff4f00, #ff5d14);
     border: none;
     border-radius: 50vh;
     display: none;    
@@ -235,10 +235,16 @@ html{
 .fundo{
     background: linear-gradient(to left, #ff4f00, #ff5d14);
     color: #fff;
-    border-radius: 5px;
-    width: 100%;
-    height: 75%;
-    margin-top: 5px;
+    width: 90%;
+    border: none;
+}
+.input-group-text{
+    background: linear-gradient(to left, #ff4f00, #ff5d14);
+    color: #fff;
+    border: none;
+}
+#iconInput{
+    color: #fff;
 }
 ::-webkit-input-placeholder{
     color: #fff;
@@ -253,9 +259,6 @@ html{
 :-moz-placeholder{
     color: #FFF;
     opacity: 1;
-}
-.mapa{
-    
 }
 
 

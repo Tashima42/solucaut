@@ -217,10 +217,11 @@ html{
 .fundo{
     background: linear-gradient(to left, #ff4f00, #ff5d14);
     color: #fff;
-    width: 90%;
     border: none;
-    margin-top: 1px;
-    margin-bottom: 0.2%;
+    margin-left: 3%;
+}
+#tamanho{
+    width: 500px;
 }
 .laranja{
     background: linear-gradient(to right, #ff4f00, #ff5d14);

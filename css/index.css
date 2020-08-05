@@ -74,34 +74,17 @@
     text-decoration: none;
 }
 
-
-/* Botão com efeito pular */
-@keyframes bounce{
-    0%, 20%, 60%, 100%{
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
-    }
-
-    40%{
-        -webkit-transform: translateY(-20px);
-        transform: translateY(-20px);
-    }
-
-    80%{
-        -webkit-transform: translateY(-10px);
-        transform: translateY(-10px);
-    }
-}
-.efeitobtn{
-    background: #f18f01;
-}
-.efeitobtn:hover{
-    animation: bounce 1s;    
-}
+/* Botao Enviar */
 #cor_laranja_btn{
-    background: linear-gradient(to right, #ff5000, #ff783b);
+    background: linear-gradient(to right, #ff4f00, #ff5d14);
     color: #ffffff;
     font-weight: bold;
+    border-radius: 25px;
+}
+#cor_laranja_btn:hover{
+    color: #000;
+    background: linear-gradient(to left, #ff783b, #ff783b);
+    transition: .6s;  
 }
 
 /* Efeito Parallax */
@@ -170,34 +153,57 @@ html{
 
 
 /* Cor dos Logos */
-.fa-info-circle{
-    color:  #ff5100;
-}
-.fa-envelope-o{
-    color:  #ff5100;
+.envCont{
+    width: 7%;
+    padding: 8px 9px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    color:  #fff;
+    background-color: #ff5100;
 }
 .fa-whatsapp{
-    color:  #ff5100;
+    width: 7%;
+    padding: 8px 11px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    color:  #fff;
+    background-color: #ff5100;
 }
 .fa-map-marker{
-    color: #ff5100;
+    width: 7%;
+    padding: 8px 14px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    color:  #fff;
+    background-color: #ff5100;
 }
 .fa-phone{
     margin-left: 3px;
 }
 
 /* Contato */
+#bordaEsquerdaContato{
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #000;
+}
 .esquerda{
     text-align: left;
 }
-#margemEsquerda{
-    margin-left: 6%;
-}
 #margemEsq2{
-    margin-left: 3%;
+    margin-left: 1%;
 }
 #margemEsq3{
     margin-left: 2%;
+}
+#margemEsq4{
+    margin-left: 1%;
+}
+#margemEsq5{
+    margin-left: 9%;
 }
 #titulo_contato{
     color: #ff5100;
@@ -215,13 +221,14 @@ html{
     font-weight: bold;
 }
 .fundo{
-    background: linear-gradient(to left, #ff4f00, #ff5d14);
+    background: linear-gradient(to right, #ff4f00, #ff5d14);
     color: #fff;
     border: none;
     margin-left: 3%;
 }
 #tamanho{
     width: 500px;
+    border-radius: 5px;
 }
 .laranja{
     background: linear-gradient(to right, #ff4f00, #ff5d14);
@@ -230,8 +237,13 @@ html{
 }
 #iconInput{
     color: #fff;
+    margin-left: 1%;
+}
+#basic-addon1{
+    border-radius: 25px;
 }
 
+/* Input Com placeholder branco */
 ::-webkit-input-placeholder{
     color: #fff;
 }

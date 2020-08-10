@@ -1,26 +1,24 @@
 /* Carousel */
 .carousel-item{
-    width: auto;
     align-items: center;
     justify-content: center;
 }
-
 .carousel-caption{
     text-align: center;
     align-items: center;
     float: center;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
-.carousel-caption h3{
-    font-size: 9vh;
+.mb-md-2{
+    font-size: 6vh;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-family: merienda;
 }
-.carousel-caption p{
+.mb-md-3{
     margin: auto;
     font-size: 3vh;
-    line-height:1.9;
+    line-height:1.2;
     font-family: poppins;
 }
 
@@ -28,8 +26,10 @@
 /* Conteúdo */
 .content-site{
     text-align: justify;
-    padding-top: 50px;
-    padding-bottom: 75px;
+    padding-top: 30px;
+    padding-bottom: 45px;
+    padding-left: 25px;
+    padding-right: 25px;
     background-color: #ffffff;
     color: #212121;
 }
@@ -74,6 +74,7 @@
     text-decoration: none;
 }
 
+
 /* Botao Enviar */
 #cor_laranja_btn{
     background: linear-gradient(to right, #ff4f00, #ff5d14);
@@ -86,6 +87,7 @@
     background: linear-gradient(to left, #ff783b, #ff783b);
     transition: .6s;  
 }
+
 
 /* Efeito Parallax */
 .header-site{
@@ -137,6 +139,7 @@ html{
     scroll-behavior: smooth;
 }
 
+
 /* Botão voltar ao topo */
 #btnTop{
     position: fixed;
@@ -187,8 +190,9 @@ html{
     text-align: center;
 }
 .fa-phone{
-    margin-left: 3px;
+    margin-left: 5px;
 }
+
 
 /* Contato */
 #bordaEsquerdaContato{
@@ -233,7 +237,7 @@ html{
     margin-left: 3%;
 }
 #tamanho{
-    width: 50vh;
+    width: 36vh;
     border-radius: 5px;
 }
 .laranja{
@@ -253,6 +257,7 @@ textarea:focus, input:focus, select:focus {
     border: 0 none;
     outline: 0;
 } 
+
 
 /* Input Com placeholder branco */
 ::-webkit-input-placeholder{

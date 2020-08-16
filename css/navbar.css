@@ -18,7 +18,7 @@
     color: #fff;
 }
 #cor_branca:hover{
-    color: #000;
+    color: #fff;
     background: linear-gradient(to left, #ff783b, #ff783b);
     transition: .6s;
 }

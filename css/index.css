@@ -15,7 +15,7 @@
     letter-spacing: 2px;
     font-family: merienda;
 }
-.mb-md-3{
+.mb-md-4{
     margin: auto;
     font-size: 3vh;
     line-height:1.2;
@@ -83,7 +83,7 @@
     border-radius: 25px;
 }
 #cor_laranja_btn:hover{
-    color: #000;
+    color: #fff;
     background: linear-gradient(to left, #ff783b, #ff783b);
     transition: .6s;  
 }

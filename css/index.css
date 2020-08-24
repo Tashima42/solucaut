@@ -157,37 +157,28 @@ html{
 
 /* Cor dos Logos */
 .envCont{
-    position: relative;
-    display: block;
-    width: 5vh;
-    height: 5vh;
-    padding: 1vh;
-    border-radius: 50%;
-    background-color: #ff5100;
-    color:  #fff;
-    text-align: center;
+    padding: 0.7vh 1vh 0.7vh 1vh;
+    color: #ffffff;
+    background: linear-gradient(to left, #ff4f00, #ff5d14);
+    border: none;
+    border-radius: 50vh;
+    display: none; 
 }
 .fa-whatsapp{
-    position: relative;
-    display: block;
-    width: 5vh;
-    height: 5vh;
-    padding: 1vh;
-    border-radius: 50%;
-    background-color: #ff5100;
-    color:  #fff;
-    text-align: center;
+    padding: 0.7vh 1vh 0.7vh 1vh;
+    color: #ffffff;
+    background: linear-gradient(to left, #ff4f00, #ff5d14);
+    border: none;
+    border-radius: 50vh;
+    display: none; 
 }
 .fa-map-marker{
-    position: relative;
-    display: block;
-    width: 5vh;
-    height: 5vh;
-    padding: 1vh;
-    border-radius: 50%;
-    background-color: #ff5100;
-    color:  #fff;
-    text-align: center;
+    padding: 0.7vh 1.4vh 0.7vh 1.4vh;
+    color: #ffffff;
+    background: linear-gradient(to left, #ff4f00, #ff5d14);
+    border: none;
+    border-radius: 50vh;
+    display: none; 
 }
 .fa-phone{
     margin-left: 5px;
@@ -217,7 +208,12 @@ html{
 }
 #titulo_contato{
     color: #ff5100;
-    font-size: 5vh;
+    font-size: 6vh;
+    text-align: center;
+}
+#titulo_fale_conosco{
+    color: #ff5100;
+    font-size: 6vh;
 }
 #info{
     height: 25vh;

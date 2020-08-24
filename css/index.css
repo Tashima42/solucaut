@@ -214,6 +214,7 @@ html{
 #titulo_fale_conosco{
     color: #ff5100;
     font-size: 6vh;
+    text-align: center;
 }
 #info{
     height: 25vh;
@@ -233,13 +234,14 @@ html{
     margin-left: 3%;
 }
 #tamanho{
-    width: 36vh;
+    width: 50vh;
     border-radius: 5px;
 }
 .laranja{
     background: linear-gradient(to right, #ff4f00, #ff5d14);
     color: #fff;
     border: none;
+    float: center;
 }
 #iconInput{
     color: #fff;

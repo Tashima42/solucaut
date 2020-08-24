@@ -19,7 +19,7 @@
 
     <body>
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-light" id="topo">
             <div class="container">
                 <div class="navbar navbar-expand-lg navbar-light">
                     <a class="navbar-brand" href="#">
@@ -455,6 +455,7 @@
         </section>
 
 
+        <!-- Imagem 3 com efeito Parallax -->
         <section class="img3-site">
             <div class="container">
                 <div class="row">
@@ -536,15 +537,48 @@
 
 
         <!-- Footer -->
-        <footer class="footer">
-            <div class="text-center py-3">
-                <h3 id="texto-footer"><img id="icone_footer" src="img/icon_white.png">SOLUCAUT</h3>
+        <footer class="footer font-small indigo">
+            <div class="container-fluid text-center py-2">
+                <div class="row">
+                    <div class="col-md-2">
+                        <img id="icone_footer" src="img/icon_white.png" class="mt-3">
+                    </div>
+
+                    <div class="col-md-8 mt-3">
+                        <a href="#quem-somos" class="mr-4" id="texto-footer"> Quem Somos</a>
+                        <a href="#servicos" class="mr-4" id="texto-footer"> Nossos Serviços</a>
+                        <a href="#cases" class="mr-4" id="texto-footer"> Cases</a>
+                        <a href="#contato" class="mr-4" id="texto-footer"> Contato</a>
+                        <a href="#" id="texto-footer"> Blog</a>
+
+                        <div class="row">
+                            <div class="col-md-12 mt-3">
+                                <div class="footer-copyright text-center py-1">
+                                    <a href="#topo" id="texto-footer"> © Solucaut Empresa Jr.</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2">
+                        <!-- Preencher com algo -->
+                    </div>
+                </div>
             </div>
+
+            
+            
+            
+            
+            <!-- <div class="text-center py-3">
+                <h3 id="texto-footer"><img id="icone_footer" src="img/icon_white.png">SOLUCAUT</h3>
+            </div> -->
         </footer>
 
 
         <!-- Botão voltar ao topo -->
         <button onclick="backToTop()" id="btnTop"><i class="fa fa-home" aria-hidden="true"></i></button>
+
 
         <!-- Importação dos Scripts -->
         <script src="js/jquery.min.js"></script>

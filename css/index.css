@@ -284,16 +284,15 @@ textarea:focus, input:focus, select:focus {
 
 /* Footer */
 .footer{
-    background-color: #ff5100;
+    background: linear-gradient(to right, #ff4f00, #ff5d14);
     color: #ffffff;
     font-weight: bold;
 }
 #texto-footer{
-    font-size: 5vh;
-    font-family: merienda;
-    padding-top: 13px;
+    color: #ffffff;
+    text-decoration: none;
 }
 #icone_footer{
-    width: 12vh;
+    width: 10vh;
     padding-right: 2%;
 }

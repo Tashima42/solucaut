@@ -67,16 +67,16 @@
     transition: .6s;
 }
 .socialMedias li:nth-child(1) a{
-    background: #ff5100;
     background: linear-gradient(to right, #ff5000, #ff783b);
 }
 .socialMedias li:nth-child(2) a{
-    background: #ff5100;
     background: linear-gradient(to right, #ff5000, #ff783b);
 }
 .socialMedias li:nth-child(3) a{
-    background: #ff5100;
     background: linear-gradient(to right, #ff5000, #ff783b);
+}
+.socialMedias li:nth-child(1) a:hover{
+    background: linear-gradient(to left, #ff783b, #ff783b);
 }
 
 

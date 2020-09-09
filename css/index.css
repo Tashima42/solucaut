@@ -9,18 +9,52 @@
     float: center;
     margin-bottom: 5%;
 }
-.title{
-    font-size: 10vh;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-family: merienda;
+
+@media (max-width: 500px){
+    .titleCarousel{
+        font-size: 6vh;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-family: merienda;
+    }
+    .contentCarousel{
+        margin: auto;
+        font-size: 3vh;
+        line-height:1.2;
+        font-family: poppins;
+    }
 }
-.content{
-    margin: auto;
-    font-size: 5vh;
-    line-height:1.2;
-    font-family: poppins;
-    margin-bottom: 15%;
+
+@media (min-width: 501px){
+    .titleCarousel{
+        font-size: 10vh;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-family: merienda;
+    }
+    .contentCarousel{
+        margin: auto;
+        font-size: 5vh;
+        line-height:1.2;
+        font-family: poppins;
+        margin-bottom: 3%;
+    }
+}
+
+@media (min-width: 1100px){
+    .titleCarousel{
+        font-size: 10vh;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-family: merienda;
+    }
+    .contentCarousel{
+        margin: auto;
+        font-size: 5vh;
+        line-height:1.2;
+        font-family: poppins;
+        margin-bottom: 12%;
+    }
 }
 
 

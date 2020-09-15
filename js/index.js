@@ -4,7 +4,7 @@ window.onscroll = function(){
 }
 
 function scroll(){
-    let btn = document.getElementById("btnTop");
+    let btn = document.getElementById("btnGoToTop");
     let nav = document.getElementById("navbar");
     if(document.documentElement.scrollTop > 50){
         btn.style.display = "block";

@@ -1,5 +1,5 @@
 /* Navbar */
-#logo{
+#iconNavbar{
     width: 7vh;
 }
 .navLinks a{
@@ -14,10 +14,10 @@
     text-align: center;
     width: 95%;
 }
-#cor_branca{
+#whiteColor{
     color: #fff;
 }
-#cor_branca:hover{
+#whiteColor:hover{
     color: #fff;
     background: linear-gradient(to left, #ff783b, #ff783b);
     transition: .6s;

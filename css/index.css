@@ -59,7 +59,7 @@
 
 
 /* Conteúdo */
-.content-site{
+.contentSite{
     text-align: justify;
     padding-top: 30px;
     padding-bottom: 45px;
@@ -68,7 +68,7 @@
     background-color: #ffffff;
     color: #212121;
 }
-#texto_img h1{
+#imageContent h1{
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -90,13 +90,11 @@
     }
 }
 
-#texto_img p{
+#imageContent p{
     font-size: 2vh;
     letter-spacing: 2px;
     line-height: 1.9;
     font-family: poppins;
-    margin-left: 5px;
-    margin-right: 5px;
 }
 
 
@@ -124,13 +122,13 @@
 
 
 /* Botao Enviar */
-#cor_laranja_btn{
+#orangeColor{
     background: linear-gradient(to right, #ff4f00, #ff5d14);
     color: #ffffff;
     font-weight: bold;
     border-radius: 25px;
 }
-#cor_laranja_btn:hover{
+#orangeColor:hover{
     color: #fff;
     background: linear-gradient(to left, #ff783b, #ff783b);
     transition: .6s;  
@@ -138,16 +136,7 @@
 
 
 /* Efeito Parallax */
-.header-site{
-    background-image: url(../img/image1-parallax.png);
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    color: #ffffff;
-    height: 100vh;
-}
-.img-site{
+.imageParallax1{
     background-image: url(../img/image1-parallax.png);
     background-position: center top;
     background-repeat: no-repeat;
@@ -158,7 +147,7 @@
     color: #ffffff;
     height: 40vh;
 }
-.img2-site{
+.imageParallax2{
     background-image: url(../img/image2-parallax.png);
     background-position: center top;
     background-repeat: no-repeat;
@@ -169,7 +158,7 @@
     color: #ffffff;
     height: 40vh;
 }
-.img3-site{
+.imageParallax3{
     background-image: url(../img/image3-parallax.png);
     background-position: center top;
     background-repeat: no-repeat;
@@ -189,7 +178,7 @@ html{
 
 
 /* Botão voltar ao topo */
-#btnTop{
+#btnGoToTop{
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -204,7 +193,7 @@ html{
 
 
 /* Cor dos Logos */
-.envCont{
+.envelopeContact{
     padding: 0.7vh 1vh 0.7vh 1vh;
     color: #ffffff;
     background: linear-gradient(to left, #ff4f00, #ff5d14);
@@ -234,64 +223,41 @@ html{
 
 
 /* Contato */
-#bordaEsquerdaContato{
+#borderLeftContact{
     border-left-width: 1px;
     border-left-style: solid;
     border-left-color: #000;
 }
-.esquerda{
+.leftAlign{
     text-align: left;
 }
-#margemEsq2{
-    margin-left: 1%;
-}
-#margemEsq3{
-    margin-left: 2%;
-}
-#margemEsq4{
-    margin-left: 1%;
-}
-#margemEsq5{
-    margin-left: 10%;
-}
-#titulo_contato{
+#titleContact{
     color: #ff5100;
     font-size: 6vh;
     text-align: center;
 }
-#titulo_fale_conosco{
+#titleForm{
     color: #ff5100;
     font-size: 6vh;
     text-align: center;
 }
-#info{
-    height: 25vh;
-}
-#staticEmail{
-    color: #000000;
-    font-weight: bold;
-}
-#titulos{
-    color: #000000;
-    font-weight: bold;
-}
-.fundo{
+.orangeForm{
     background: linear-gradient(to right, #ff4f00, #ff5d14);
     color: #fff;
     border: none;
     margin-left: 3%;
 }
-#tamanho{
+#sizeForm{
     width: 50vh;
     border-radius: 5px;
 }
-.laranja{
+.inputOrange{
     background: linear-gradient(to right, #ff4f00, #ff5d14);
     color: #fff;
     border: none;
     float: center;
 }
-#iconInput{
+#whiteIconInput{
     color: #fff;
     margin-left: 1%;
 }
@@ -334,11 +300,11 @@ textarea:focus, input:focus, select:focus {
     color: #ffffff;
     font-weight: bold;
 }
-#texto-footer{
+#textFooter{
     color: #ffffff;
     text-decoration: none;
 }
-#icone_footer{
+#iconFooter{
     width: 10vh;
     padding-right: 2%;
 }

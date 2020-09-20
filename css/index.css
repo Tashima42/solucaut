@@ -10,9 +10,28 @@
     margin-bottom: 5%;
 }
 
-@media (max-width: 500px){
+@media (max-width: 349px){
+    .carousel{
+        width: 100%;
+    }
     .titleCarousel{
-        font-size: 6vh;
+        font-size: 4vh;
+        text-transform: uppercase;
+        font-family: merienda;
+    }
+    .contentCarousel{
+        margin: auto;
+        font-size: 3vh;
+        font-family: poppins;
+        margin-bottom: -8%;
+    }
+}
+@media (min-width: 350px){
+    .carousel{
+        width: 100%;
+    }
+    .titleCarousel{
+        font-size: 5vh;
         text-transform: uppercase;
         letter-spacing: 2px;
         font-family: merienda;
@@ -20,40 +39,97 @@
     .contentCarousel{
         margin: auto;
         font-size: 3vh;
-        line-height:1.2;
+        font-family: poppins;
+        margin-bottom: -5%;
+    }
+}
+
+@media (min-width: 426px){
+    .carousel{
+        width: 100%;
+    }
+    .titleCarousel{
+        font-size: 6vh;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-family: merienda;
+    }
+    .contentCarousel{
+        margin: auto;
+        font-size: 3vh;
         font-family: poppins;
     }
 }
 
-@media (min-width: 501px){
+@media (min-width: 600px){
+    .carousel{
+        width: 100%;
+    }
     .titleCarousel{
-        font-size: 10vh;
+        font-size: 7vh;
         text-transform: uppercase;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
+        font-family: merienda;
+    }
+    .contentCarousel{
+        margin: auto;
+        font-size: 4vh;
+        font-family: poppins;
+        margin-bottom: 1%;
+    }
+}
+
+@media (min-width: 700px){
+    .carousel{
+        width: 100%;
+    }
+    .titleCarousel{
+        font-size: 8vh;
+        text-transform: uppercase;
+        letter-spacing: 1px;
         font-family: merienda;
     }
     .contentCarousel{
         margin: auto;
         font-size: 5vh;
-        line-height:1.2;
         font-family: poppins;
         margin-bottom: 3%;
     }
 }
 
-@media (min-width: 1100px){
+@media (min-width: 900px){
+    .carousel{
+        width: 100%;
+    }
     .titleCarousel{
         font-size: 10vh;
         text-transform: uppercase;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
         font-family: merienda;
     }
     .contentCarousel{
         margin: auto;
-        font-size: 5vh;
-        line-height:1.2;
+        font-size: 6vh;
         font-family: poppins;
-        margin-bottom: 12%;
+        margin-bottom: 5%;
+    }
+}
+
+@media (min-width: 1200px){
+    .carousel{
+        width: 100%;
+    }
+    .titleCarousel{
+        font-size: 12vh;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-family: merienda;
+    }
+    .contentCarousel{
+        margin: auto;
+        font-size: 6vh;
+        font-family: poppins;
+        margin-bottom: 7%;
     }
 }
 
@@ -76,17 +152,15 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     font-family: Comons;
-    margin-top: 10vh;
+    margin-top: 3vh;
 }
 
-@media(min-height: 800px){
-    #texto_img h1{
-        margin-top: 3vh;
+@media(max-width: 600px){
+    #imageContent h1{
+        font-size: 6vh;
     }
-}
-@media(min-width: 600px){
-    #texto_img h1{
-        margin-top: 10vh;
+    #imageContent p{
+        font-size: 4vh;
     }
 }
 
@@ -95,6 +169,7 @@
     letter-spacing: 2px;
     line-height: 1.9;
     font-family: poppins;
+    margin-bottom: 3vh;
 }
 
 
@@ -145,7 +220,7 @@
     align-items: center;
     justify-content: center;
     color: #ffffff;
-    height: 40vh;
+    height: auto;
 }
 .imageParallax2{
     background-image: url(../img/image2-parallax.png);
@@ -156,7 +231,7 @@
     align-items: center;
     justify-content: center;
     color: #ffffff;
-    height: 40vh;
+    height: auto;
 }
 .imageParallax3{
     background-image: url(../img/image3-parallax.png);
@@ -167,7 +242,7 @@
     align-items: center;
     justify-content: center;
     color: #ffffff;
-    height: 40vh;
+    height: auto;
 }
 
 

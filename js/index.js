@@ -72,3 +72,13 @@ function deleteContent(){
         document.getElementById("allContentSite").style.display = "block";
     }
 }
+
+window.addEventListener('resize', function () {
+    var largura = window.innerWidth;
+    var checkBox = document.getElementById("check");
+
+    if (largura > 1250){
+        document.getElementById("allContentSite").style.display = "block";
+        checkBox.checked = false;
+    }
+});

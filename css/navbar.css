@@ -84,17 +84,26 @@ nav ul li a:hover{
 #check{
     display: none;
 }
+.allContentSite{
+    display: block;
+}
 
 @media (max-width: 1700px){
     nav img{
         margin-left: -5%;
         float: left;
     }
+    .allContentSite{
+        display: block;
+    }
 }
 @media (max-width: 1400px){
     nav img{
         margin-left: -5%;
         float: left;
+    }
+    .allContentSite{
+        display: block;
     }
 }
 @media (max-width: 1250px){

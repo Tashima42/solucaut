@@ -213,6 +213,7 @@
 /* Efeito Parallax */
 .imageParallax1{
     background-image: url(../img/image1-parallax.png);
+    text-align: center;
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -224,6 +225,7 @@
 }
 .imageParallax2{
     background-image: url(../img/image2-parallax.png);
+    text-align: center;
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -235,6 +237,7 @@
 }
 .imageParallax3{
     background-image: url(../img/image3-parallax.png);
+    text-align: center;
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;

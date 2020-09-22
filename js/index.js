@@ -62,3 +62,13 @@ if(target.length){
         animeOnScroll();
     }, 50));//tempopara a animação ocorrer
 }
+
+function deleteContent(){
+    var checkBox = document.getElementById("check");
+    if(checkBox.checked == true){
+        document.getElementById("allContentSite").style.display = "none";
+    }
+    else{
+        document.getElementById("allContentSite").style.display = "block";
+    }
+}

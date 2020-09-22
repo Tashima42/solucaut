@@ -82,3 +82,24 @@ window.addEventListener('resize', function () {
         checkBox.checked = false;
     }
 });
+
+$("#item1").click(function (){
+    var checkBox = document.getElementById("check");
+    checkBox.checked = false;
+    document.getElementById("allContentSite").style.display = "block";
+});
+$("#item2").click(function (){
+    var checkBox = document.getElementById("check");
+    checkBox.checked = false;
+    document.getElementById("allContentSite").style.display = "block";
+});
+$("#item3").click(function (){
+    var checkBox = document.getElementById("check");
+    checkBox.checked = false;
+    document.getElementById("allContentSite").style.display = "block";
+});
+$("#item4").click(function (){
+    var checkBox = document.getElementById("check");
+    checkBox.checked = false;
+    document.getElementById("allContentSite").style.display = "block";
+});

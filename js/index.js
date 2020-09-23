@@ -6,15 +6,46 @@ window.onscroll = function(){
 function scroll(){
     let btn = document.getElementById("btnGoToTop");
     let nav = document.getElementById("navbar");
+    let btn2 = document.getElementById("btnShowMenu");
+    var largura = window.innerWidth;
     if(document.documentElement.scrollTop > 50){
         btn.style.display = "block";
+        if(largura <= 1250){
+            btn2.style.display = "block";
+        }
     }
     else{
         btn.style.display = "none";
+        btn2.style.display = "none";
     }
 }
 function backToTop(){
     document.documentElement.scrollTop = 0;
+}
+function showMenu(){
+    var checkBox = document.getElementById("check");
+    var linksNavbar = document.getElementById("linksNavbar");
+    var navLinks = document.getElementById("navLinks");
+    var btnCloseMenu = document.getElementById("btnCloseMenu");
+
+    linksNavbar.style.top = '-3vh';
+    linksNavbar.style.height = '110vh';
+    navLinks.style.margin = '7vh';
+    btnCloseMenu.style.display = "block";
+    btnCloseMenu.style.transition = '.9s';
+    checkBox.checked = true;
+}
+function closeMenu(){
+    var checkBox = document.getElementById("check");
+    var btnCloseMenu = document.getElementById("btnCloseMenu");
+    var linksNavbar = document.getElementById("linksNavbar");
+    var navLinks = document.getElementById("navLinks");
+
+    linksNavbar.style.top = '13vh';
+    linksNavbar.style.height = '100vh';
+    navLinks.style.margin = '0';
+    btnCloseMenu.style.display = "none";
+    checkBox.checked = false;
 }
 
 
@@ -64,13 +95,11 @@ if(target.length){
 }
 
 function deleteContent(){
-    var checkBox = document.getElementById("check");
-    if(checkBox.checked == true){
-        document.getElementById("allContentSite").style.display = "none";
-    }
-    else{
-        document.getElementById("allContentSite").style.display = "block";
-    }
+    document.getElementById("allContentSite").style.display = "none";
+}
+
+function returnContent(){
+    document.getElementById("allContentSite").style.display = "block";
 }
 
 window.addEventListener('resize', function () {

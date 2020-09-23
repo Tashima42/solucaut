@@ -20,10 +20,10 @@
     <body>
         <!-- Navbar Principal -->
         <nav id="navbar">
-            <input type="checkbox" id="check" onClick="deleteContent()">
+            <input type="checkbox" id="check">
             <label for="check" class="checkIcons">
-                <i class="fa fa-bars" id="btn"></i>
-                <i class="fa fa-times" id="cancel"></i>
+                <i class="fa fa-bars" id="btn" onClick="deleteContent()"></i>
+                <i class="fa fa-times" id="cancel" onClick="returnContent()"></i>
             </label>
             <img src="img/icon.png" alt="SolucautIcon" id="solucautIconMenu">
             <ul id="linksNavbar">
@@ -50,7 +50,7 @@
         </nav>
 
 
-        <div class="allContentSite" id="allContentSite">
+        <div id="allContentSite">
             <!-- Carousel -->
             <div id="carousel" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -549,8 +549,10 @@
         
 
 
-        <!-- Botão voltar ao topo -->
-        <button onclick="backToTop()" class="allContentSite" id="btnGoToTop"><i class="fa fa-home" aria-hidden="true"></i></button>
+        <!-- Botão voltar ao topo e Mostrar Navbar -->
+        <button onclick="backToTop()" id="btnGoToTop"><i class="fa fa-home" aria-hidden="true"></i></button>
+        <button onclick="showMenu()" id="btnShowMenu"><i class="fa fa-bars" aria-hidden="true"></i></button>
+        <button onclick="closeMenu()" id="btnCloseMenu"><i class="fa fa-times" aria-hidden="true"></i></button>
 
 
         <!-- Importação dos Scripts -->

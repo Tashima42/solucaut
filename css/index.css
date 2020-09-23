@@ -8,6 +8,7 @@
     align-items: center;
     float: center;
     margin-bottom: 5%;
+    z-index: 1;
 }
 
 @media (max-width: 349px){
@@ -196,6 +197,11 @@
 }
 
 
+.allContentSite{
+    z-index: 1;
+}
+
+
 /* Botao Enviar */
 #orangeColor{
     background: linear-gradient(to right, #ff4f00, #ff5d14);
@@ -220,6 +226,7 @@
     background-attachment: fixed;
     align-items: center;
     justify-content: center;
+    display: flex;
     color: #ffffff;
     height: auto;
 }
@@ -232,6 +239,7 @@
     background-attachment: fixed;
     align-items: center;
     justify-content: center;
+    display: flex;
     color: #ffffff;
     height: auto;
 }
@@ -244,6 +252,7 @@
     background-attachment: fixed;
     align-items: center;
     justify-content: center;
+    display: flex;
     color: #ffffff;
     height: auto;
 }
@@ -255,7 +264,7 @@ html{
 }
 
 
-/* Botão voltar ao topo */
+/* Botão voltar ao topo e show Navbar */
 #btnGoToTop{
     position: fixed;
     bottom: 20px;
@@ -267,6 +276,28 @@ html{
     border: none;
     border-radius: 50vh;
     display: none;    
+}
+#btnShowMenu{
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    height: 40px;
+    width: 40px;
+    color: #ffffff;
+    background: linear-gradient(to left, #ff4f00, #ff5d14);
+    border: none;
+    border-radius: 50vh;
+    display: none;    
+}
+#btnCloseMenu{
+    position: fixed;
+    float: right;
+    font-size: 5vh;
+    bottom: 90vh;
+    right: 20px;
+    color: #fff;
+    background-color: transparent;
+    border: none;
 }
 
 

@@ -1,6 +1,15 @@
-*{
-    font-family: 'Kelson Sans';
+@font-face {
+    font-family: 'kelson_sansnormal';
+    src: url('.../fontes/kelsonsans-normal-webfont.woff2') format('woff2'),
+         url('.../fontes/kelsonsans-normal-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    
 }
+*{
+    font-family: 'kelson_sansnormal';
+}
+
 /* Carousel */
 .carousel-item{
     align-items: center;

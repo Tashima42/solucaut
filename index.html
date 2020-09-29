@@ -19,35 +19,37 @@
 
     <body>
         <!-- Navbar Principal -->
-        <nav id="navbar">
-            <input type="checkbox" id="check">
-            <label for="check" class="checkIcons">
-                <i class="fa fa-bars" id="btn" onClick="deleteContent()"></i>
-                <i class="fa fa-times" id="cancel" onClick="returnContent()"></i>
-            </label>
-            <img src="img/icon.png" alt="SolucautIcon" id="solucautIconMenu">
-            <ul id="linksNavbar">
-                <label class="navLinks" id="navLinks">
-                    <li><img src="img/icon.png" alt="SolucautIcon" id="solucautIconNavbar"></li>
-                    <li id="item1"><a href="#whoWeAre" id="effect">Quem Somos</a></li>
-                    <li id="item2"><a href="#services" id="effect">Nossos Serviços</a></li>
-                    <li id="item3"><a href="#cases" id="effect">Cases</a></li>
-                    <li id="item4"><a href="#contact" id="effect">Contato</a></li>
-                    <li id="item5"><a href="#" id="effect">Blog</a></li>
+        <div id="navbarDiv">
+            <nav id="navbar">
+                <input type="checkbox" id="check">
+                <label for="check" class="checkIcons">
+                    <i class="fa fa-bars" id="btn" onClick="deleteContent()"></i>
+                    <i class="fa fa-times" id="cancel" onClick="returnContent()"></i>
                 </label>
-                <li class="socialMedias">
-                    <a class="mr-3" id="widthIcon" href="https://www.facebook.com/solucaut/" target="_blank">
-                        <i class="fa fa-facebook"></i>
-                    </a>
-                    <a class="mr-3" id="widthIcon" href="https://www.instagram.com/solucaut_ej/" target="_blank">
-                        <i class="fa fa-instagram"></i>
-                    </a>
-                    <a class="" id="widthIcon" href="https://br.linkedin.com/organization-guest/company/solucaut?challengeId=AQEqF9G47bhaswAAAXNnZlfr6x_UblpDz8tGJ7pAUEhYhpgijpCxtmuVraU7iXSC0UpUXdwY1rbHm0EO57cPMWro9lHp_aDsWQ&submissionId=60af9659-812c-2316-c6b4-80fa0662fc60" target="_blank">
-                        <i class="fa fa-linkedin"></i>
-                    </a>
-                </li>
-            </ul>
-        </nav>
+                <img src="img/icon.png" alt="SolucautIcon" id="solucautIconMenu">
+                <ul id="linksNavbar">
+                    <label class="navLinks" id="navLinks">
+                        <li><img src="img/icon.png" alt="SolucautIcon" id="solucautIconNavbar"></li>
+                        <li id="item1"><a href="#whoWeAre" id="effect">Quem Somos</a></li>
+                        <li id="item2"><a href="#services" id="effect">Nossos Serviços</a></li>
+                        <li id="item3"><a href="#cases" id="effect">Cases</a></li>
+                        <li id="item4"><a href="#contact" id="effect">Contato</a></li>
+                        <li id="item5"><a href="#" id="effect">Blog</a></li>
+                    </label>
+                    <li class="socialMedias">
+                        <a class="mr-3" id="widthIcon" href="https://www.facebook.com/solucaut/" target="_blank">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        <a class="mr-3" id="widthIcon" href="https://www.instagram.com/solucaut_ej/" target="_blank">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                        <a class="" id="widthIcon" href="https://br.linkedin.com/organization-guest/company/solucaut?challengeId=AQEqF9G47bhaswAAAXNnZlfr6x_UblpDz8tGJ7pAUEhYhpgijpCxtmuVraU7iXSC0UpUXdwY1rbHm0EO57cPMWro9lHp_aDsWQ&submissionId=60af9659-812c-2316-c6b4-80fa0662fc60" target="_blank">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
 
 
         <div id="allContentSite">
@@ -119,7 +121,7 @@
                                         <h5 class="card-title text-center">Nossa história</h5>
                                     </div>
                                 </div>
-                        </div>
+                            </div>
 
                         <div class="col-md-4">
                             <a data-toggle="modal" data-target="#modalMissao" href="#modalMissao">

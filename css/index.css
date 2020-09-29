@@ -1,3 +1,6 @@
+*{
+    font-family: 'Kelson Sans';
+}
 /* Carousel */
 .carousel-item{
     align-items: center;
@@ -298,6 +301,7 @@ html{
     color: #fff;
     background-color: transparent;
     border: none;
+    display: none;
 }
 
 

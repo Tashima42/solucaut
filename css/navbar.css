@@ -50,6 +50,10 @@ nav ul li a:hover{
     transition: all 0.4s;
 }
 
+.navbar img {
+    width: 60px;
+}
+
 .navbar .nav-link {
     color: #fff;
 }

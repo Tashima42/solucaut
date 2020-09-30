@@ -1,13 +1,9 @@
 @font-face {
-    font-family: 'kelson_sansnormal';
-    src: url('.../fontes/kelsonsans-normal-webfont.woff2') format('woff2'),
-         url('.../fontes/kelsonsans-normal-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    
+    font-family: 'kelsonSans';
+    src: url('../kelsonsans-normal-webfont.woff');
 }
 *{
-    font-family: 'kelson_sansnormal';
+    font-family: kelsonSans;
 }
 
 /* Carousel */
@@ -30,12 +26,10 @@
     .titleCarousel{
         font-size: 4vh;
         text-transform: uppercase;
-        font-family: merienda;
     }
     .contentCarousel{
         margin: auto;
         font-size: 3vh;
-        font-family: poppins;
         margin-bottom: -8%;
     }
 }
@@ -47,12 +41,10 @@
         font-size: 5vh;
         text-transform: uppercase;
         letter-spacing: 2px;
-        font-family: merienda;
     }
     .contentCarousel{
         margin: auto;
         font-size: 3vh;
-        font-family: poppins;
         margin-bottom: -5%;
     }
 }
@@ -65,12 +57,10 @@
         font-size: 6vh;
         text-transform: uppercase;
         letter-spacing: 1px;
-        font-family: merienda;
     }
     .contentCarousel{
         margin: auto;
         font-size: 3vh;
-        font-family: poppins;
     }
 }
 
@@ -82,12 +72,10 @@
         font-size: 7vh;
         text-transform: uppercase;
         letter-spacing: 1px;
-        font-family: merienda;
     }
     .contentCarousel{
         margin: auto;
         font-size: 4vh;
-        font-family: poppins;
         margin-bottom: 1%;
     }
 }
@@ -100,12 +88,10 @@
         font-size: 8vh;
         text-transform: uppercase;
         letter-spacing: 1px;
-        font-family: merienda;
     }
     .contentCarousel{
         margin: auto;
         font-size: 5vh;
-        font-family: poppins;
         margin-bottom: 3%;
     }
 }
@@ -118,12 +104,10 @@
         font-size: 10vh;
         text-transform: uppercase;
         letter-spacing: 1px;
-        font-family: merienda;
     }
     .contentCarousel{
         margin: auto;
         font-size: 6vh;
-        font-family: poppins;
         margin-bottom: 5%;
     }
 }
@@ -136,12 +120,10 @@
         font-size: 12vh;
         text-transform: uppercase;
         letter-spacing: 1px;
-        font-family: merienda;
     }
     .contentCarousel{
         margin: auto;
         font-size: 6vh;
-        font-family: poppins;
         margin-bottom: 7%;
     }
 }
@@ -155,6 +137,7 @@
     padding-left: 25px;
     padding-right: 25px;
     background-color: #ffffff;
+    font-size: 2vh;
     color: #212121;
 }
 #imageContent h1{
@@ -164,7 +147,6 @@
     font-size: 7vh;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-family: Comons;
     margin-top: 3vh;
 }
 
@@ -181,7 +163,6 @@
     font-size: 2vh;
     letter-spacing: 2px;
     line-height: 1.9;
-    font-family: poppins;
     margin-bottom: 3vh;
 }
 
@@ -190,7 +171,6 @@
 .card-title{
     color: #000000;
     font-weight: bold;
-    font-family: merienda;
     text-align: center;
     text-decoration: none;
 }
@@ -199,7 +179,6 @@
 }
 .card-text{
     color: #000000;
-    font-family: poppins;
     text-align: center;
 }
 .card:hover{

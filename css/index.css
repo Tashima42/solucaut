@@ -6,17 +6,32 @@
     font-family: kelsonSans;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+    height:10px;
+    z-index: 1000;
+    overflow: overlay;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #ff4f00;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ff5d14;
+  }
+
+
 /* Carousel */
 .carousel-item{
     align-items: center;
     justify-content: center;
 }
 .carousel-caption{
-    text-align: center;
-    align-items: center;
-    float: center;
-    margin-bottom: 5%;
-    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 @media (max-width: 349px){

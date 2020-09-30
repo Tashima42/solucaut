@@ -3,6 +3,16 @@ window.onscroll = function(){
     scroll();
 }
 
+$(function () {
+    $(window).on('scroll', function () {
+        if ( $(window).scrollTop() > 10 ) {
+            $('.navbar').addClass('active');
+        } else {
+            $('.navbar').removeClass('active');
+        }
+    });
+});
+
 function scroll(){
     let btn = document.getElementById("btnGoToTop");
     let nav = document.getElementById("navbar");
